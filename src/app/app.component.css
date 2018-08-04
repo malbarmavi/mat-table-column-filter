@@ -1,0 +1,18 @@
+:host {
+  text-align: center;
+  margin-top: 2.5rem;
+  display: block;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}

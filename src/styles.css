@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.header {
+  position: relative;
+}
+
+button[mat-button].btn-toggle {
+  position: absolute !important;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 0rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  height: 1.5rem;
+  padding: 0 !important;
+  line-height: 1rem !important;
+  box-sizing: border-box;
+  width: 1.65rem;
+}
+
+.mat-menu-item-highlighted:not([disabled]),
+.mat-menu-item.cdk-keyboard-focused:not([disabled]),
+.mat-menu-item.cdk-program-focused:not([disabled]),
+.mat-menu-item:hover:not([disabled]) {
+  background: #fff;
+}
+
+
+.menu-title { 
+  font-weight: 300;
+  font-size: 1.5rem;
+}
