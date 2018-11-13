@@ -1,7 +1,6 @@
-# Filtering different columns in a material table
+# Filtering different columns in a material table [![Build Status](https://travis-ci.com/malbarmawi/mat-table-column-filter.svg?branch=master)](https://travis-ci.com/malbarmawi/mat-table-column-filter)
 
 this an example on impliment column filter for angular material table base on other material components , withoud create any custom component
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
