@@ -38,7 +38,8 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "baseHref": "https://malbarmawi.github.io/mat-table-column-filter/"
             }
           }
         },
@@ -49,8 +50,7 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "tableFilters:build:production",
-              "baseHref": "https://malbarmawi.github.io/mat-table-column-filter/"
+              "browserTarget": "tableFilters:build:production"
             }
           }
         },
