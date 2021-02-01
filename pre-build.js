@@ -13,7 +13,12 @@ try {
     .split(`\n`)
     .map((r) => r.trim())
     .filter((r) => r);
-  const branch = execSync("git branch --show-current").toString().trim();
+  // const branch = execSync("git branch --show-current").toString().trim();
+  const branch = execSync("git branch")
+    .toString()
+    .trim()
+    .split("\n")[0]
+    .substr(2);
 
   let [commit] = gitResult;
   commit = commit.split(" ")[1];
