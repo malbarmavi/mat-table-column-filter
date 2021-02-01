@@ -3,8 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  buildCode: "####",
 };
+
+console.log(environment.buildCode);
 
 /*
  * In development mode, to ignore zone related error stack frames such as

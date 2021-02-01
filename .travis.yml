@@ -17,7 +17,7 @@ install:
   - npm i
 
 script:
-  - ng build --prod
+  - npm build
 deploy:
   provider: pages
   skip_cleanup: true

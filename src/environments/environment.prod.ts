@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  buildCode: "####",
 };
+
+console.log(environment.buildCode);
