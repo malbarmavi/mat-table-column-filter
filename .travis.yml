@@ -17,7 +17,7 @@ install:
   - npm i
 
 script:
-  - npm build
+  - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
