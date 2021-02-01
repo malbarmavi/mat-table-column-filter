@@ -1,8 +1,11 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
+const path = require("path");
 
-const path = `${__dirname}\\src\\environments`;
-const files = ["prod"].map((ex) => `${path}\\environment.${ex}.ts`);
+const basePath = path.join(__dirname, `\\src\\environments`);
+const files = ["prod"].map((ex) =>
+  path.join(basePath, `\\environment.${ex}.ts`)
+);
 console.log(files);
 const { TRAVIS_BUILD_NUMBER } = process.env;
 console.log(TRAVIS_BUILD_NUMBER);
