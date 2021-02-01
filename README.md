@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live Demo 👍
 
-check 👉 [here](http://bit.ly/mat-columns-filter) live deployed version of this project,by travis ci.
+check 👉 [here](http://bit.ly/material-columns-filter) live deployed version of this project,by travis ci.
 
 ## Development server 💻
 
