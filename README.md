@@ -1,6 +1,6 @@
-# Filtering different columns in a material table [![Build Status](https://travis-ci.com/malbarmawi/mat-table-column-filter.svg?branch=master)](https://travis-ci.com/malbarmawi/mat-table-column-filter) 🔥🔥
+# Filtering different columns in a material table [![Build Status](https://travis-ci.com/malbarmavi/mat-table-column-filter.svg?branch=master)](https://travis-ci.com/malbarmavi/mat-table-column-filter) 🔥🔥
 
-This angular project is the answer of 👉 [stackoverflow quetion filtering different columns in a material table](https://stackoverflow.com/questions/51515695/filtering-different-columns-in-a-material-table),so this ment to show the simplest way to solve this without create any custom component.
+This angular project is the answer of 👉 [stackoverflow question filtering different columns in a material table](https://stackoverflow.com/questions/51515695/filtering-different-columns-in-a-material-table),so this ment to show the simplest way to solve this without create any custom component.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
