@@ -4,10 +4,7 @@
 
 export const environment = {
   production: false,
-  buildCode: "####",
 };
-
-console.log(environment.buildCode);
 
 /*
  * In development mode, to ignore zone related error stack frames such as

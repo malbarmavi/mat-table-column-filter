@@ -4,10 +4,7 @@ const path = require("path");
 
 try {
   // generate file path list
-  const basePath = path.join(__dirname, "src", "environments");
-  const files = ["prod"].map((ex) =>
-    path.join(basePath, `environment.${ex}.ts`)
-  );
+  const buildInfoPath = path.join(__dirname, "build-info.json");
 
   // get travis build number
   const { TRAVIS_BUILD_NUMBER } = process.env;
@@ -23,15 +20,13 @@ try {
   let [commit] = gitResult;
   commit = commit.split(" ")[1];
 
-  // generate the build code message
-  const buildMessage = `${commit}-${TRAVIS_BUILD_NUMBER}`;
-
   // update build code on the env files
-  files.forEach((filePath) => {
-    const f = fs.readFileSync(filePath).toString();
-    const result = f.replace("####", buildMessage);
-    fs.writeFileSync(filePath, result);
-  });
+
+  const buildInfo = {
+    buildNo: TRAVIS_BUILD_NUMBER,
+    commit,
+  };
+  fs.writeFileSync(buildInfoPath, JSON.stringify(buildInfo));
 } catch (err) {
   console.log("error: ", err);
 }
