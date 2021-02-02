@@ -2,8 +2,8 @@ import { Component, OnInit } from "@angular/core";
 import { MatTableDataSource } from "@angular/material/table";
 
 const buildInfo: {
-  commit: String;
-  buildNo: numbre;
+  commit: string;
+  buildNo: number;
 } = require("../../build-info.json");
 
 export interface PeriodicElement {
